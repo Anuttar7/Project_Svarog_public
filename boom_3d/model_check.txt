@@ -1,0 +1,23 @@
+model check, trac_boom_model.py against params.py and Composite Boom.step
+ok  deployed length (bbox z)                       model    2100.0000  want    2100.0000 mm  (tol 0.01)
+ok  section width (bbox u) = 2*(R+T/2)             model      30.4000  want      30.4000 mm  (tol 0.01)
+ok  section height (bbox v) = W + R + T/2          model      25.2000  want      25.2000 mm  (tol 0.01)
+ok  section area (mm2) vs analytic                 model      13.4876  want      13.4876 mm2  (tol 0.0001)
+ok  number of distinct arc radii                   model       2.0000  want       2.0000   (tol 0)
+ok  inner arc radius                               model      15.0000  want      15.0000 mm  (tol 0.01)
+ok  outer arc radius                               model      15.2000  want      15.2000 mm  (tol 0.01)
+ok  mid-surface radius (mean of the two)           model      15.1000  want      15.1000 mm  (tol 0.01)
+ok  arc length of outer face / length, rad -> deg  model      90.0000  want      90.0000 deg  (tol 1e-06)
+ok  web faces of height W (count)                  model       2.0000  want       2.0000   (tol 0)
+ok  web thickness (two flanges, free face to free face) model       0.4000  want       0.4000 mm  (tol 0.01)
+ok  reference STEP section area vs model (mm2)     model      13.4876  want      13.4876 mm2  (tol 0.001)
+ok  reference STEP section width (y) vs model      model      30.4000  want      30.4000 mm  (tol 0.01)
+ok  reference STEP section height (z) vs model     model      25.2000  want      25.2000 mm  (tol 0.01)
+ok  reference STEP inner radius vs model           model      15.0000  want      15.0000 mm  (tol 0.01)
+ok  reference STEP outer radius vs model           model      15.2000  want      15.2000 mm  (tol 0.01)
+ok  coiled tape height (z) = flattened height      model      33.7190  want      33.7190 mm  (tol 0.01)
+ok  coiled outer radius vs wrap count              model      39.0901  want      39.0986 mm  (tol 0.05)
+ok  coiled volume vs tape volume (length x H x t)  model   28271.3312  want   28323.9806 mm3  (tol 56.647961218132934)
+info deployed volume 28324.0 mm3, mass at 1451.0 kg/m3 = 41.1 g
+info coil: 9.021 wraps, pitch 0.41000000000000003 mm, outer R 39.099 mm (D 78.20); tape height 33.7190 mm
+info the CAD STEP 'Composite Boom Full Length.step' is 3000 mm; params.py LENGTH is 2.1 m; this model uses params.py.

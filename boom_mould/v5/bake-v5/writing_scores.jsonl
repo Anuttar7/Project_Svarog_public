@@ -1,0 +1,4 @@
+{"model": "opus", "words": 130, "facts": "11/11", "missing": [], "banned": 0, "longest_sentence": 44, "digit_units": 0, "score": 10}
+{"model": "sonnet", "words": 141, "facts": "10/11", "missing": ["O_wrinkle"], "banned": 0, "longest_sentence": 35, "digit_units": 7, "score": 8}
+{"model": "qwen25", "words": 162, "facts": "10/11", "missing": ["cte_0.75"], "banned": 0, "longest_sentence": 33, "digit_units": 6, "score": 8}
+{"model": "haiku", "words": 119, "facts": "7/11", "missing": ["H14", "O_wrinkle", "seals_grain", "cost_0.5"], "banned": 0, "longest_sentence": 40, "digit_units": 4, "score": 6}

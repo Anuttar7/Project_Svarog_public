@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+dist/
+build/
+
+# Ansys Workbench & MAPDL temporary and solver files
+*.backup/
+.Composite Setup - Failsafe_files.backup/
+*.lock
+cleanup-*.bat
+*_crashed.wbjn
+solve.out
+file0.err
+*.rst
+*.rdb
+*.ldhi
+*.esav
+*.full
+*.mntr
+*.dsp
+*.BCS
+*.mode
+*.page
+*.DSP
+*.log
+*.err
+
+# Generated interactive HTML visualizations (large embedded plotly bundles)
+bistability_2d.html
+bistability_plot.html
+
+# Mac OS & Editor artifacts
+.DS_Store
+._*
+.vscode/
+.idea/

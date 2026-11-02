@@ -1,0 +1,42 @@
+1. **BLOCKER**: The liner sits between wood and laminate, so the wood moves back by its thickness. Fix: The wood should be slightly offset to account for the liner's thickness.
+
+    Evidence: The calc5 output states that "the wood moves back by its thickness" [src calc4], and this is incorrect because the liner is placed between the wood and laminate.
+
+    Fix: Offset the wood by 0.5 mm to ensure the liner sits properly.
+
+2. **MEDIUM**: The spring-in ratio for the cured radius needs to be recalculated.
+
+    Evidence: The calc4 output states that "a tool at R14.83 would cure to about R12.4: 17% undersize" [der], indicating that the spring-in ratio is incorrect.
+
+    Fix: Recalculate the spring-in ratio based on the correct tool face and cured radius.
+
+3. **BLOCKER**: The bleed gallery is not properly defined.
+
+    Evidence: The calc4 output states that "a 1 x 1 mm bleed gallery at y = -10 [src review]" [der], indicating that the bleed gallery is not clearly defined.
+
+    Fix: Define the bleed gallery with a clear width and depth to ensure proper tool face.
+
+4. **MEDIUM**: The pressure in the autoclave needs to be recalculated.
+
+    Evidence: The calc4 output states that "the bolts CLAMP: 5 x M6 at 2 N m (~1.5 kN each, ~2 MPa on the web)" [der], indicating that the pressure calculation is incorrect.
+
+    Fix: Recalculate the pressure in the autoclave based on the correct pressure calculation.
+
+5. **BLOCKER**: The M6 cross bolts need to be repositioned.
+
+    Evidence: The calc4 output states that "5 off at y = -23.5, pitch 90; 2 reamed 6 mm dowels [der]" [der], indicating that the M6 cross bolts are not properly positioned.
+
+    Fix: Reposition the M6 cross bolts to ensure proper bolt spacing and clearance.
+
+6. **MEDIUM**: The silicone plug growth at cure needs to be recalculated.
+
+    Evidence: The calc4 output states that "an unrestrained plug sliding 7-20 mm along a wet layup can drag the plies" [der], indicating that the silicone plug growth needs to be recalculated.
+
+    Fix: Recalculate the silicone plug growth at cure based on the correct growth calculation.
+
+7. **MEDIUM**: The sizes of the plug and the liner need to be recalculated.
+
+    Evidence: The calc4 output states that "plug: 390 x 60.0 wide, top 10 mm above the tip lands, i.e. y = 28.0 [der]" [der], indicating that the sizes need to be recalculated.
+
+    Fix: Recalculate the sizes of the plug and the liner based on the correct dimensions.
+

@@ -1,0 +1,22 @@
+# Svarog Literature References (Composite Booms)
+
+Publisher PDFs previously committed to the upstream repository have been moved out of the git tree for copyright compliance. Full citation, DOI, and relevance details are catalogued below. Unredacted research archives are maintained in internal project storage.
+
+| # | Reference / Authors | Title | Year | Publication / Identifier | Relevance to Svarog |
+|---|---|---|---|---|---|
+| 1 | **Fernandez, J. M.** | *Advanced Deployable Shell-Based Composite Booms For Small Satellite Structural Applications Including Solar Sails* | 2017 | NASA/TM-2017-219665 | Primary reference for ultra-thin deployable composite shell booms, coiling strain limits, and solar sail deployment. |
+| 2 | **Fernandez, J. M., Lee, A. J.** | *Mechanics of Bistable Coiled Tubing Member (CTM) Booms* | 2019 | NASA/TM-2019-220409 | Mechanics of cylindrical and slit-tube bistable deployable booms; strain energy formulations. |
+| 3 | **Lee, A. J., Fernandez, J. M.** | *Mechanics of bistable two-shelled composite booms* | 2018 | *Composite Structures*, Vol. 192, pp. 497–508. DOI: [10.1016/j.compstruct.2018.02.080](https://doi.org/10.1016/j.compstruct.2018.02.080) | Mathematical formulation used in `Bistability Script.py` for ABD matrix-based bistability criteria and coiled radius $R_{coil}$. |
+| 4 | **Leclerc, C., Pedivellano, C., Pellegrino, S.** | *Characterization of Ultra-Thin Composite Triangular Rollable and Collapsible (TRAC) Booms* | 2017 | AIAA SciTech Forum, AIAA 2017-0171. DOI: [10.2514/6.2017-0171](https://doi.org/10.2514/6.2017-0171) | Foundational TRAC boom paper. Derives flattening strain, coiling mechanics, and peak stress concentration factors (~2.8×). |
+| 5 | **Leclerc, C., Pedivellano, C., Pellegrino, S.** | *Failure Analysis of Ultra-Thin Composite Booms During Coiling* | 2018 | AIAA SciTech Forum. DOI: [10.2514/6.2018-0447](https://doi.org/10.2514/6.2018-0447) | Fiber microbuckling criteria under severe coiling curvature for 0.1 mm plies; validation of spring-in factors. |
+| 6 | **Leclerc, C.** | *Ultra-Thin Composite Deployable Booms* | 2018 | Ph.D. Thesis, California Institute of Technology | Full comprehensive thesis detailing TRAC boom manufacturing, test coupon setup, and viscoelastic creep. |
+| 7 | **Larson, C.** | *Structural Analysis of Triangular Rollable and Collapsible (TRAC) Booms Under Combined Loading* | 2016 | Technical Report | Bending and torsional buckling of open-section TRAC booms under gravity and tip loading. |
+| 8 | **Wang, K., et al.** | *Blossoming Analysis of Composite Deployable Booms During Deployment* | 2020 | *Aerospace Science and Technology*, Vol. 104, 105952. DOI: [10.1016/j.ast.2020.105952](https://doi.org/10.1016/j.ast.2020.105952) | Analytical and experimental study of unspooling instability ("blossoming") and hub friction requirements. |
+| 9 | **Chu, Y., Lei, Y.** | *Dynamic deployment analysis of thin-walled composite deployable booms* | 2014 | *Mechanism and Machine Theory*, Vol. 74, pp. 93–106. DOI: [10.1016/j.mechmachtheory.2013.11.011](https://doi.org/10.1016/j.mechmachtheory.2013.11.011) | Dynamic multibody simulation of boom rollout, kinetic energy dissipation, and tip overshoot. |
+| 10 | **Hao, W., et al.** | *Design and validation of thin-walled composite deployable booms with tape-spring hinges* | 2011 | *Composite Structures*, Vol. 93, pp. 2727–2734. DOI: [10.1016/j.compstruct.2011.05.021](https://doi.org/10.1016/j.compstruct.2011.05.021) | Hinge kinematics and folding energy storage in laminated shell structures. |
+| 11 | **ESA / ITI Report 106200** | *Passive Damped Deployment Mechanism for Tape-Spring Booms* | 2015 | ESA Contract Report | Passive braking mechanisms to prevent explosive uncoiling of monostable booms. |
+| 12 | **EuroLaunch / SNSA / DLR / ESA** | *REXUS User Manual, Document RX_UserManual_v7-17* | 2021 | EuroLaunch REXUS/BEXUS Programme Documentation | Launch vehicle mechanical environment, static load envelopes ($20g$ axial, $15g$ lateral), vibration, and payload envelope constraints. |
+
+### Notes on Duplicates & Redactions
+- In upstream `adityash-ankar/Project_Svarog`, `20170001569.pdf` and `Fernandez - Advanced Deployable...pdf` were byte-identical duplicates (MD5: `898a313314a8791e92d94f01a92eeb6d`). Both represent NASA/TM-2017-219665.
+- The browser duplicate suffix file `RX_UserManual_v7-17_26Nov21 (1).pdf` was pruned. The official REXUS User Manual is cited above.

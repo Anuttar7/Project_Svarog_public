@@ -1,0 +1,9 @@
+Write one paragraph, 90 to 130 words, that a second-year aerospace student will say out loud to his rocket-society structures team tonight. It explains why the 0.5 mm aluminium sheet goes back on the wooden mould blocks after last week's version dropped it. Plain spoken British English, first person plural, no em dashes, no headings, no bullet points, no "not X but Y" framing, no "key takeaway" style signposting, no emoji.
+
+Facts (use only these):
+- Last version dropped the sheet for two reasons: a vacuum bag at 1 bar could not press a badly formed sheet flat, and gluing aluminium to wood over 390 mm fails because aluminium grows about 0.75 mm more than plywood over the cure.
+- Now the part cures in an autoclave at 3 to 7 bar with a silicone plug pressing every face. That is 5 to 10 times the pressure needed to flatten the sheet's springback onto the wood.
+- The sheet is not glued. It is held by one screw in the middle and two screws in 3 mm slots, with release agent under it, so it slides every cure and stays elastic. Use H14 half-hard temper; soft O temper would yield and wrinkle.
+- The Caltech group whose spring-in measurement (cured radius = 0.835 of tool radius) we copy cured on aluminium tools, so an aluminium face keeps us closer to their process.
+- It also seals the machined plywood end grain, so the laminate sits on a smooth non-porous face and wood moisture cannot reach it.
+- Cost: the wood is cut 0.5 mm smaller (arc radius 17.5 for an 18.0 tool face).

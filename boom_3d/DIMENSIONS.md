@@ -30,7 +30,6 @@
 ### Quantities not yet Identified
 | Quantity | Value | Source |
 |---|---|---|
-
 | Spool end discs | 2.0 thick, R 41.10 | INDICATIVE, not decided |
 | Wrap clearance in the model | 0.01 | INDICATIVE, keeps the spiral a valid solid |
 

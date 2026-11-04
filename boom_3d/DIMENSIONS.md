@@ -24,12 +24,13 @@
 | Centroid y-coordinate | 15.28 mm | derived |
 | Ixx,c | 890.1 mm4 | derived |
 | Iyy,c | 490.62 mm4 | derived |
+| Wraps for 2.1 m on the hub | 10 (9.12) | spiral, mid-line length = L |
+| Coil outer radius / diameter | 39.10 / 78.20 | hub + wraps x pitch |
 
 ### Quantities not yet Identified
 | Quantity | Value | Source |
 |---|---|---|
-| Wraps for 2.1 m on the hub | 9.02 | spiral, mid-line length = L |
-| Coil outer radius / diameter | 39.10 / 78.20 | hub + wraps x pitch |
+
 | Spool end discs | 2.0 thick, R 41.10 | INDICATIVE, not decided |
 | Wrap clearance in the model | 0.01 | INDICATIVE, keeps the spiral a valid solid |
 

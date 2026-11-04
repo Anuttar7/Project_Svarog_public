@@ -8,7 +8,7 @@
 | Flange inner radius | 15.0 mm | R - t/2 |
 | Flange outer radius | 15.2 mm | R + t/2 |
 | Flange opening angle | 90.0 deg | params.py THETA_DEG |
-| Flange angle subtended at centre | TO BE CONFIRMED | params.py |
+| Flange angle subtended at centre | 90.0 deg | params.py |
 | Flange thickness (each) | 0.2 mm | params.py THICKNESS (two 0.1 mm plies) |
 | Web height (bonded land) | 10.0 mm | params.py WEB_WIDTH |
 | Deployed length | 2.1 m | params.py LENGTH (2.1 m) |

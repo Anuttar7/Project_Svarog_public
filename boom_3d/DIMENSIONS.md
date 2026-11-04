@@ -12,6 +12,9 @@
 | Flange thickness (each) | 0.2 mm | params.py THICKNESS (two 0.1 mm plies) |
 | Web height (bonded land) | 10.0 mm | params.py WEB_WIDTH |
 | Deployed length | 2.1 m | params.py LENGTH (2.1 m) |
+| Flattened tape height | 33.7190 | w + R*theta|
+| Flattened tape thickness | 0.400 | 2t |
+| Hub radius / diameter | 35.0 / 70.0 | design limitation |
 
 ### Derived Parameters
 | Quantity | Value | Source |
@@ -25,9 +28,6 @@
 ### Quantities not yet Identified
 | Quantity | Value | Source |
 |---|---|---|
-| Flattened tape height | 33.7190 | sizing.py: web + one arc length |
-| Flattened tape thickness | 0.400 | sizing.py: two flanges |
-| Hub radius / diameter | 35.0 / 70.0 | params.py DEFAULT_R_HUB |
 | Wraps for 2.1 m on the hub | 9.02 | spiral, mid-line length = L |
 | Coil outer radius / diameter | 39.10 / 78.20 | hub + wraps x pitch |
 | Spool end discs | 2.0 thick, R 41.10 | INDICATIVE, not decided |
